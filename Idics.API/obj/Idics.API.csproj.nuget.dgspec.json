@@ -1,0 +1,341 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\C# API\\Idics.API\\Idics.API\\Idics.API.csproj": {}
+  },
+  "projects": {
+    "E:\\C# API\\Idics.API\\Idics.API\\Idics.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C# API\\Idics.API\\Idics.API\\Idics.API.csproj",
+        "projectName": "Idics.API",
+        "projectPath": "E:\\C# API\\Idics.API\\Idics.API\\Idics.API.csproj",
+        "packagesPath": "C:\\Users\\nuica\\.nuget\\packages\\",
+        "outputPath": "E:\\C# API\\Idics.API\\Idics.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nuica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\C# API\\Idics.API\\Idics.BUS\\Idics.BUS.csproj": {
+                "projectPath": "E:\\C# API\\Idics.API\\Idics.BUS\\Idics.BUS.csproj"
+              },
+              "E:\\C# API\\Idics.API\\Idics.MOD\\Idics.MOD.csproj": {
+                "projectPath": "E:\\C# API\\Idics.API\\Idics.MOD\\Idics.MOD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.23.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C# API\\Idics.API\\Idics.BUS\\Idics.BUS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C# API\\Idics.API\\Idics.BUS\\Idics.BUS.csproj",
+        "projectName": "Idics.BUS",
+        "projectPath": "E:\\C# API\\Idics.API\\Idics.BUS\\Idics.BUS.csproj",
+        "packagesPath": "C:\\Users\\nuica\\.nuget\\packages\\",
+        "outputPath": "E:\\C# API\\Idics.API\\Idics.BUS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nuica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\C# API\\Idics.API\\Idics.DAL\\Idics.DAL.csproj": {
+                "projectPath": "E:\\C# API\\Idics.API\\Idics.DAL\\Idics.DAL.csproj"
+              },
+              "E:\\C# API\\Idics.API\\Idics.MOD\\Idics.MOD.csproj": {
+                "projectPath": "E:\\C# API\\Idics.API\\Idics.MOD\\Idics.MOD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C# API\\Idics.API\\Idics.DAL\\Idics.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C# API\\Idics.API\\Idics.DAL\\Idics.DAL.csproj",
+        "projectName": "Idics.DAL",
+        "projectPath": "E:\\C# API\\Idics.API\\Idics.DAL\\Idics.DAL.csproj",
+        "packagesPath": "C:\\Users\\nuica\\.nuget\\packages\\",
+        "outputPath": "E:\\C# API\\Idics.API\\Idics.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nuica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\C# API\\Idics.API\\Idics.MOD\\Idics.MOD.csproj": {
+                "projectPath": "E:\\C# API\\Idics.API\\Idics.MOD\\Idics.MOD.csproj"
+              },
+              "E:\\C# API\\Idics.API\\Idics.ULT\\Idics.ULT.csproj": {
+                "projectPath": "E:\\C# API\\Idics.API\\Idics.ULT\\Idics.ULT.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C# API\\Idics.API\\Idics.MOD\\Idics.MOD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C# API\\Idics.API\\Idics.MOD\\Idics.MOD.csproj",
+        "projectName": "Idics.MOD",
+        "projectPath": "E:\\C# API\\Idics.API\\Idics.MOD\\Idics.MOD.csproj",
+        "packagesPath": "C:\\Users\\nuica\\.nuget\\packages\\",
+        "outputPath": "E:\\C# API\\Idics.API\\Idics.MOD\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nuica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C# API\\Idics.API\\Idics.ULT\\Idics.ULT.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C# API\\Idics.API\\Idics.ULT\\Idics.ULT.csproj",
+        "projectName": "Idics.ULT",
+        "projectPath": "E:\\C# API\\Idics.API\\Idics.ULT\\Idics.ULT.csproj",
+        "packagesPath": "C:\\Users\\nuica\\.nuget\\packages\\",
+        "outputPath": "E:\\C# API\\Idics.API\\Idics.ULT\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nuica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

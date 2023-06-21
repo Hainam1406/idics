@@ -1,0 +1,12 @@
+E:\C# API\Idics.API\Idics.ULT\bin\Debug\net6.0\Idics.ULT.deps.json
+E:\C# API\Idics.API\Idics.ULT\bin\Debug\net6.0\Idics.ULT.dll
+E:\C# API\Idics.API\Idics.ULT\bin\Debug\net6.0\Idics.ULT.pdb
+E:\C# API\Idics.API\Idics.ULT\obj\Debug\net6.0\Idics.ULT.csproj.AssemblyReference.cache
+E:\C# API\Idics.API\Idics.ULT\obj\Debug\net6.0\Idics.ULT.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# API\Idics.API\Idics.ULT\obj\Debug\net6.0\Idics.ULT.AssemblyInfoInputs.cache
+E:\C# API\Idics.API\Idics.ULT\obj\Debug\net6.0\Idics.ULT.AssemblyInfo.cs
+E:\C# API\Idics.API\Idics.ULT\obj\Debug\net6.0\Idics.ULT.csproj.CoreCompileInputs.cache
+E:\C# API\Idics.API\Idics.ULT\obj\Debug\net6.0\Idics.ULT.dll
+E:\C# API\Idics.API\Idics.ULT\obj\Debug\net6.0\refint\Idics.ULT.dll
+E:\C# API\Idics.API\Idics.ULT\obj\Debug\net6.0\Idics.ULT.pdb
+E:\C# API\Idics.API\Idics.ULT\obj\Debug\net6.0\ref\Idics.ULT.dll
